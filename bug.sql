@@ -1,0 +1,1 @@
+In SQL, a common error is to assume that the order of rows in a table is guaranteed.  SQL tables are fundamentally unordered sets.  If you rely on a particular row order without using an `ORDER BY` clause, you may get unexpected results, especially across different database systems or even different queries on the same database.
